@@ -143,3 +143,7 @@ p {
 #ps-plus {
   background-color: #bebcbb;
 }
+/* SECTION DISCOUNT */
+#discount p {
+  color: gray;
+}
