@@ -152,3 +152,38 @@ p {
 #ps-now {
   background-color: #161c3b;
 }
+
+/* FOOTER */
+footer {
+  background-color: #00439c;
+  color: #fff;
+}
+footer img {
+  width: 5em;
+}
+
+.country {
+  line-height: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.country img {
+  width: 1rem;
+  vertical-align: middle;
+}
+.country p {
+  vertical-align: middle;
+  margin-bottom: 0;
+  font-weight: 100;
+}
+
+#sony-footer-logo {
+  width: 13em;
+  margin-bottom: 2em;
+}
+
+footer p a {
+  text-decoration: underline;
+}
