@@ -112,3 +112,8 @@ p {
 #banner h2 {
   color: #fff;
 }
+/* SECTION NEW GAMES */
+#new-games {
+  background-color: #1f1f1f;
+  color: white;
+}
