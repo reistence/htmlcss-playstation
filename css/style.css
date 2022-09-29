@@ -147,3 +147,8 @@ p {
 #discount p {
   color: gray;
 }
+
+/* SECTION PSNOW */
+#ps-now {
+  background-color: #161c3b;
+}
