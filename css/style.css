@@ -27,7 +27,18 @@ a {
   margin-bottom: 1em;
   display: inline-block;
 }
-
+.ms-btn {
+  color: white;
+  background-color: #2d64e6;
+  padding: 0.5em 1em;
+  border-radius: 20px;
+}
+.ms-card-active {
+  border-bottom: 1px solid #2d64e6;
+}
+.ms-card-active > * {
+  padding: 0 0.5em;
+}
 /* HEADER */
 /* HEADER BANNER */
 .header-banner {
@@ -76,4 +87,18 @@ p {
 
 #featured-games .ms-img-active {
   border: 4px solid rgb(86, 86, 216);
+}
+/* SECTION INTRO BANNER */
+#intro-banner p {
+  color: gray;
+}
+#intro-banner span {
+  color: rgb(86, 86, 216);
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+/* SECTION PLAYSTATION5 */
+#playstation5 p {
+  color: gray;
+  width: 80%;
 }
