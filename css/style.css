@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 /* COMMON */
+img {
+  width: 100%;
+}
 html {
   font-size: 100%;
 }
@@ -53,12 +56,6 @@ header .nav .nav-item .btn .log-in a {
 }
 
 /* JUMBOTRON */
-#jumbotron {
-  /* background-image: url("../img/jumbo-bg.png");
-  background-size: cover;
-  background-position: bottom;
-  height: 50vh; */
-}
 .banner-bg {
   background-image: url(../img/jumbo-bg.png);
   background-size: cover;
@@ -71,4 +68,12 @@ header .nav .nav-item .btn .log-in a {
 #jumbotron h2,
 p {
   color: #fff;
+}
+/* SECTION FEATURED GAMES */
+#featured-games img {
+  border-radius: 10px;
+}
+
+#featured-games .ms-img-active {
+  border: 4px solid rgb(86, 86, 216);
 }
