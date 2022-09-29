@@ -67,7 +67,7 @@ header .nav .nav-item .btn .log-in a {
 }
 
 /* JUMBOTRON */
-.banner-bg {
+.jumbo-bg {
   background-image: url(../img/jumbo-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -101,4 +101,14 @@ p {
 #playstation5 p {
   color: gray;
   width: 80%;
+}
+/* SECTION BANNER */
+.banner-bg {
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+#banner h2 {
+  color: #fff;
 }
