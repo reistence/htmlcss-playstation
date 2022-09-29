@@ -63,17 +63,29 @@ a {
 .header-banner img {
   width: 5em;
 }
+.nav-item {
+  margin-right: 0.5em;
+}
 .nav-item img {
   width: 0.5em;
 }
+
 .nav-item .nav-link {
   color: black;
 }
-header .nav .nav-item .btn .log-in a {
+#log-in-btn {
   background-color: black;
-  display: block;
-  padding: 1em;
+  color: #fff;
+  display: inline-block;
+  padding: 0.2em 0.5em;
   border-radius: 20px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1rem;
+  cursor: pointer;
+}
+#log-in-btn a {
+  color: #fff;
 }
 .nav-item .nav-link:last-child img {
   width: 1.3em;
@@ -99,7 +111,7 @@ p {
 }
 
 #featured-games .ms-img-active {
-  border: 4px solid rgb(86, 86, 216);
+  border: 2px solid #2d64e6;
 }
 /* SECTION INTRO BANNER */
 #intro-banner p {
