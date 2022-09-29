@@ -39,6 +39,7 @@ a {
 .ms-card-active > * {
   padding: 0 0.5em;
 }
+
 /* HEADER */
 /* HEADER BANNER */
 .header-banner {
@@ -114,6 +115,14 @@ p {
 }
 /* SECTION NEW GAMES */
 #new-games {
+  padding-top: 2em;
   background-color: #1f1f1f;
   color: white;
+}
+/* SECTION PLAYSTATION4 */
+#playstation4 {
+  padding-top: 2em;
+}
+#playstation4 p {
+  color: gray;
 }
