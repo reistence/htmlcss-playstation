@@ -132,13 +132,14 @@ a {
 
 /* JUMBOTRON */
 #jumbotron {
-  margin-top: 1em;
+  margin-top: 1.5em;
 }
 .jumbo-bg {
   background-image: url(../img/jumbo-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
+  padding-top: 5em;
 }
 .jumbo-title {
   width: 60%;
