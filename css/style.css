@@ -184,10 +184,10 @@ p {
 
 .ms-card:hover img {
   opacity: 1;
+  padding: 0 0.5em;
 }
 .ms-card:hover {
   border-bottom: 1px solid #2d64e6;
-  padding: 0 0.5em;
 }
 /* SECTION BANNER */
 .banner-bg {
