@@ -30,7 +30,7 @@
       <div class="header-banner container-fluid">
         <img src="img/sony_logo.svg" alt="" />
       </div>
-      <nav class="navbar navbar-expand-lg bg-light">
+      <nav class="navbar fixed-top navbar-expand-lg bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="img/play_logo.svg" alt="" />
@@ -48,39 +48,45 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item d-flex">
-                <a class="nav-link active" aria-current="page" href="#"
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  aria-current="page"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
                   >Giochi
                 </a>
-                <img src="img/chevron-down-solid.svg" alt="" />
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
               </li>
-              <li class="nav-item d-flex">
-                <a class="nav-link" href="#">Hardware</a>
-                <img src="img/chevron-down-solid.svg" alt="" />
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#">Hardware</a>
               </li>
-              <li class="nav-item d-flex">
-                <a class="nav-link" href="#">Servizi</a>
-                <img src="img/chevron-down-solid.svg" alt="" />
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#">Servizi</a>
               </li>
-              <li class="nav-item d-flex">
-                <a class="nav-link" href="#">Novità</a>
-                <img src="img/chevron-down-solid.svg" alt="" />
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#">Novità</a>
               </li>
-              <li class="nav-item d-flex">
-                <a class="nav-link" href="#">Fai Acquisti</a>
-                <img src="img/chevron-down-solid.svg" alt="" />
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#">Fai Acquisti</a>
               </li>
-              <li class="nav-item d-flex">
-                <a class="nav-link" href="#">Supporto</a>
-                <img src="img/chevron-down-solid.svg" alt="" />
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#">Supporto</a>
               </li>
             </ul>
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item d-flex">
-                <a class="nav-link" aria-current="page" href="#"
-                  >My Playstation
-                </a>
-                <img src="img/chevron-down-solid.svg" alt="" />
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" aria-current="page" href="#"
+                  >My Playstation</a
+                >
               </li>
               <li id="log-in-btn" class="nav-item d-flex">
                 <a class="nav-link" href="#">Accedi</a>

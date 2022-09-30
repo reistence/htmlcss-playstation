@@ -97,6 +97,24 @@ a {
 .nav-item .nav-link {
   color: black;
 }
+
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.355em;
+  vertical-align: 0.155em;
+  content: "\f078";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  color: gray;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+}
+.dropdown:hover .dropdown-toggle::after {
+  color: #2d64e6;
+}
+
 #log-in-btn {
   background-color: black;
   color: #fff;
@@ -120,6 +138,9 @@ a {
 }
 
 /* JUMBOTRON */
+#jumbotron {
+  margin-top: 1em;
+}
 .jumbo-bg {
   background-image: url(../img/jumbo-bg.png);
   background-size: cover;
