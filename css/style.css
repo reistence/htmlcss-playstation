@@ -151,6 +151,9 @@ p {
 #featured-games img {
   border-radius: 10px;
 }
+#featured-games img:hover {
+  border: 2px solid #2d64e6;
+}
 
 #featured-games .ms-img-active {
   border: 2px solid #2d64e6;
