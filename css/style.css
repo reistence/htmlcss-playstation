@@ -165,7 +165,7 @@ a {
   width: 15em;
   right: 0;
   padding-left: 0;
-  top: 58px;
+  top: 40px;
 }
 .ms-ham-menu-dropdown > * {
   padding: 1em 1em;
@@ -176,6 +176,7 @@ a {
   color: black;
   border-bottom: 1px solid #2d64e6;
 }
+
 .ms-ham-menu:hover .ms-ham-menu-dropdown {
   display: block;
 }
@@ -314,6 +315,14 @@ footer {
 footer img {
   width: 5em;
 }
+footer a {
+  color: white;
+}
+
+.footer a:focus {
+  text-decoration: underline;
+  color: white;
+}
 
 .country {
   line-height: 1rem;
@@ -337,6 +346,7 @@ footer img {
   margin-bottom: 2em;
 }
 
-footer p a {
+footer span a {
+  color: #2d64e6;
   text-decoration: underline;
 }
