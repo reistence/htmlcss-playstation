@@ -83,8 +83,13 @@ a {
 }
 
 .nav-item .nav-link {
+  color: grey;
+}
+.nav-item .nav-link:hover {
   color: black;
 }
+
+/* DROPDOWN MENU HEADER */
 .dropdown {
   position: static;
 }
@@ -92,7 +97,7 @@ a {
 .dropdown-toggle::after {
   display: inline-block;
   margin-left: 0.355em;
-  vertical-align: 0.155em;
+  vertical-align: 0.055em;
   content: "\f078";
   font-family: "Font Awesome 5 Free";
   font-weight: 600;
@@ -146,6 +151,33 @@ a {
 }
 .ms-second-dropdown-menu li:hover {
   color: #2d64e6;
+}
+
+/* DROPDOWN MENU HAMBURGER */
+.ms-ham-menu {
+  position: relative;
+}
+
+.ms-ham-menu-dropdown {
+  position: absolute;
+  display: none;
+  background-color: #f8f9fa;
+  width: 15em;
+  right: 0;
+  padding-left: 0;
+  top: 58px;
+}
+.ms-ham-menu-dropdown > * {
+  padding: 1em 1em;
+  color: grey;
+  text-align: center;
+}
+.ms-ham-menu-dropdown li:hover {
+  color: black;
+  border-bottom: 1px solid #2d64e6;
+}
+.ms-ham-menu:hover .ms-ham-menu-dropdown {
+  display: block;
 }
 
 #log-in-btn {
