@@ -17,8 +17,8 @@ ul {
 }
 a {
   text-decoration: none;
-  color: inherit;
 }
+
 .ms-btn-banner {
   background-color: orange;
   padding: 0.5em 1em;
@@ -26,25 +26,49 @@ a {
   color: #fff;
   margin-bottom: 1em;
   display: inline-block;
+  border: 1px solid orange;
+}
+
+.ms-btn-banner:hover {
+  box-shadow: inset 0 0 0 3px #fff, inset 0 0 0 3px #fff;
+  color: #fff;
 }
 .ms-btn {
   color: #fff;
   background-color: #2d64e6;
   padding: 0.5em 1em;
   border-radius: 20px;
+  border: 1px solid #2d64e6;
+  cursor: pointer;
 }
+
+.ms-btn:hover {
+  box-shadow: inset 0 0 0 3px #fff, inset 0 0 0 3px #fff;
+  color: #fff;
+}
+
 .ms-btn-gray {
   color: #2d64e6;
   background-color: #d9dadc;
   padding: 0.5em 1em;
   border-radius: 20px;
 }
+.ms-btn-gray:hover {
+  box-shadow: inset 0 0 0 3px #2d64e6, inset 0 0 0 3px #2d64e6;
+  color: #2d64e6;
+}
+
 .ms-btn-white {
   color: black;
   background-color: #fff;
   padding: 0.5em 1em;
   border-radius: 20px;
 }
+.ms-btn-white:hover {
+  box-shadow: inset 0 0 0 3px black, inset 0 0 0 3px black;
+  color: black;
+}
+
 .ms-card-active {
   border-bottom: 1px solid #2d64e6;
 }
@@ -83,6 +107,10 @@ a {
   vertical-align: middle;
   line-height: 1rem;
   cursor: pointer;
+  border: 1px solid black;
+}
+#log-in-btn:hover {
+  box-shadow: inset 0 0 0 3px #fff, inset 0 0 0 3px #fff;
 }
 #log-in-btn a {
   color: #fff;
