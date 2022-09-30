@@ -80,12 +80,6 @@ a {
 .header-banner img {
   width: 5em;
 }
-.nav-item {
-  margin-right: 0.5em;
-}
-.nav-item img {
-  width: 0.5em;
-}
 
 .nav-item .nav-link {
   color: black;
