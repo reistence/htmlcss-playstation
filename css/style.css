@@ -148,6 +148,7 @@ p {
 }
 #featured-games img:hover {
   border: 2px solid #2d64e6;
+  transform: translateY(-0.7em);
 }
 
 #featured-games .ms-img-active {
