@@ -69,13 +69,6 @@ a {
   color: black;
 }
 
-.ms-card-active {
-  border-bottom: 1px solid #2d64e6;
-}
-.ms-card-active > * {
-  padding: 0 0.5em;
-}
-
 /* HEADER */
 /* HEADER BANNER */
 .header-banner {
@@ -172,9 +165,31 @@ p {
   font-size: 0.7rem;
 }
 /* SECTION PLAYSTATION5 */
+
 #playstation5 p {
   color: gray;
   width: 80%;
+}
+.ms-card-active {
+  border-bottom: 1px solid #2d64e6;
+}
+.ms-card-active > * {
+  padding: 0 0.5em;
+}
+
+.ms-card img {
+  opacity: 0.5;
+}
+.ms-card p {
+  margin: 0 auto 1em;
+}
+
+.ms-card:hover img {
+  opacity: 1;
+}
+.ms-card:hover {
+  border-bottom: 1px solid #2d64e6;
+  padding: 0 0.5em;
 }
 /* SECTION BANNER */
 .banner-bg {
